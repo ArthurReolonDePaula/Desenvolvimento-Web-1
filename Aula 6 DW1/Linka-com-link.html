@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<<html lanf="pt-br">
+
+	<head>
+		<title>Exemplo Listas Ordenadas e não ordenadas</title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+
+		ul{
+			list-style-type: square;
+			list-style-position: outside;
+			margin-left: 10px;
+		}
+		a{
+			text-decoration: none;
+		}
+		/*Pseudo Classe */
+		a:hover{
+			background-color: #FF9800;
+
+			/*padding: 3px;*/
+
+			/* padding-left: 3px;
+			padding-right: 3px;
+			padding-top: 3px;
+			padding-bottom: 3px; */
+
+			padding: 3px 3px 3px 3px;
+
+			border: 5px #000000; solid;
+
+			color: #FFFFFF;
+		}
+		a:active{
+			background-color: #4cAF50;
+			color: #FFFFFF;
+		}
+		a:visited{
+			background-color: #EEEEEE
+			color: #03A9F4;
+		}
+		p:first-letter{
+			font-size: 300%
+		}
+		p.parag:first-line{
+			color: #0000FF;
+			font-variant: small-caps;
+		}
+		</style>
+	</head>
+
+	<body>
+		<h1> Exemplo Lista - Sublista/mista</h1>
+
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<p class="parag"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<ul>
+			<li>
+				<a href="http://www.lg.com" target="blank">Lg</a>
+			</li>
+
+			<li>
+				<a href="http://www.motorola.com.br" target="blank">Motorola</a>
+			</li>
+		</ul>
+	</body>
+</html>
