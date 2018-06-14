@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Ex tabela</title>
+		<style type="text/css">
+			table, td, th{
+				border: 5px #000 solid;
+				border-collapse: collapse;
+				
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<table>
+			<caption>Alunos</caption>
+				<thead>
+					<tr>
+						<th>Nome</th>
+						<th>Email</th>
+						<th>RG</th>
+						<th>CPF</th>
+					</tr>
+				</thead>
+
+				<tfoot>
+					<tr>
+						<th>Nome</th>
+						<th>Email</th>
+						<th>RG</th>
+						<th>CPF</th>
+					</tr>
+				</tfoot>
+
+				<tbody>
+					<tr>
+						<td>Zé</td>
+						<td>ze@gmail.com</td>
+						<td colspan="2">1122</td>
+					</tr>
+					<tr>
+						<td>Luigi</td>
+						<td rowspan="2">luigi@gmail.com</td>
+						<td>11</td>
+						<td>22</td>
+					</tr>
+
+					<tr>
+						<td>Zé</td>
+						
+						<td>11</td>
+						<td>22</td>
+					</tr>
+					<tr>
+						<td>Luigi</td>
+						<td>luigi@gmail.com</td>
+						<td>11</td>
+						<td>22</td>
+					</tr>
+
+					<tr>
+						<td>Zé</td>
+						<td>ze@gmail.com</td>
+						<td>11</td>
+						<td>22</td>
+					</tr>
+					<tr>
+						<td>Luigi</td>
+						<td>luigi@gmail.com</td>
+						<td>11</td>
+						<td>22</td>
+					</tr>
+				</tbody>
+		</table>
+	</body>
+</html>
