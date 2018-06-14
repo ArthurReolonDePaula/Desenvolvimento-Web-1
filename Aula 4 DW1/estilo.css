@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* css - do index */
+
+body{
+	background-color: #FFB74D;
+}
+
+h1{
+	background-color: #ff9800;
+	text-align: center; /* Left right center*/ 
+	border-width: 5px;
+	border-color: #000000;
+	border-style: solid;/*solid, double, dotted*/
+	
+}
