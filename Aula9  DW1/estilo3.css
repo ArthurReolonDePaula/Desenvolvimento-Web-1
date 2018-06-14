@@ -1,0 +1,9 @@
+/* min 768px laranja */
+
+body{
+	background-color: #ff9800;
+}
+h1{
+	text-align: center;
+	font-size: 70px;
+}

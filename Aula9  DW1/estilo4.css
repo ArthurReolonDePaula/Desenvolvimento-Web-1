@@ -1,0 +1,9 @@
+/* min 992px - amarelo */
+
+body{
+	background-color: #000000;
+}
+h1{
+	text-align: center;
+	font-size: 90px;
+}
