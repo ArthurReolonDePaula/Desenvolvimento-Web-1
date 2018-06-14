@@ -1,0 +1,101 @@
+<!DOCtype html>
+<<html lang "pt-br">
+	<head>
+		<title>Exemplo formulario</title>
+		<meta charset="UTF-8">
+		<meta content="width=device-width,initial-scale=1, maximum-scale=1" name="viewport">
+
+		<STYLE TYPE="text/css">
+		#number{
+			width: 50px;
+		}
+		textarea{
+			resize: none;
+		}
+		input,textarea{
+			background-color: #FFB74D;
+			color: #FFFFFF;
+		}
+		#titulo{
+
+		}
+		#centro{
+			background-color: #EEEEEE;
+			width: 50%;
+			margin: 0 auto;
+		}
+		</STYLE>
+	</head>
+
+	<body>
+		<!--FORMULARIOS -->
+		<h1 id="titulo">Cadastre-se</h1>
+
+		<div id="centro">
+			<!-- PHP -->
+			<form method="get" action="#">
+			<div>
+			   <input type="text" name="txtnome"
+			   placeholder="Digite seu nome" autofocus="autofocus">
+			</div>
+
+			<div>
+			   <input type="password" name="txtsenha"
+			   placeholder="Digite sua senha">
+			</div>
+
+			<div>
+				<select name="selEstadoCivil">
+					<option value="estadocivil"
+					selected="selected">Estado Civil
+					</option>
+			</div>
+
+			<div>
+					<option value="Solteiro">Solteiro
+					</option>
+
+					<option value="Crush">Crush
+					</option>
+				</select>
+			</div>
+
+			<div>
+				<label>
+				<input type="radio" name="rdsexo"
+				value="masculino">masculino</label>
+
+				<label>
+				<input type="radio" name="rdsexo"
+				value="feminino">feminino</label>
+			</div>
+
+			<div>
+				<label>Cadastre-se na nossa Newsletter AGORA!!</label>
+				<input type="checkbox" name="chsim">
+			</div>
+
+			<div>
+				<textarea placeholder="OBS..." name="txtOBS" maxlenght="140"></textarea>
+			</div>
+
+			<div>
+				<input type="color" name="color">
+			</div>
+
+			<div>
+				<input type="date" name="data">
+			</div>
+
+			<div>
+				<label>Numero de carros</label>
+				<input type="number" id="number" name="Quantos Carros"
+				min="1" max="5">
+			</div>
+
+			   <input type="submit" value="Cadastrar">
+			   <input type="reset" value="Limpar">
+			</form>
+		</div>
+	</body>
+</html>
