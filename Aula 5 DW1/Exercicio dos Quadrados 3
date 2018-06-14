@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Exercicio dos Quadrados</title>
+		<meta charset="utf-8" type>
+		<style type="text/css">
+			#div1{
+				background-color: #D32F2F;
+				width: 200px;
+				height: 200px;
+				display: inline-block;
+				margin-left: 100px;
+			}
+			#div2{
+				background-color: #9C27B0;
+				width: 200px;
+				height: 200px;
+				display: inline-block;
+				margin-left: 50px;
+			}
+			.div3{
+				background-color: #42A5F5;
+				width: 200px;
+				height: 200px;
+				display: inline-block;
+				margin-left: 50px;
+			}
+			.div4{
+				background-color: #00BCD4;
+				width: 200px;
+				height: 200px;
+				display: inline-block;
+				margin-left: 50px;
+			}
+			#div5{
+				background-color: #4CAF50;
+				width: 973px;
+				height: 200px;
+				display: block;
+				margin-left: 100px;
+				margin-top: 50px;
+			}
+			#div6{
+				background-color: #550000
+				width: 950px;
+				height: 400px;
+
+
+
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="div6">
+			<div id="div1">
+			</div>
+
+			<div id="div2">
+			</div>
+
+			<div class="div3">
+			</div>
+
+			<div class="div4">
+			</div>
+
+	   		<div id="div5">
+			</div>
+		</div>
+	</body>
+</html>
